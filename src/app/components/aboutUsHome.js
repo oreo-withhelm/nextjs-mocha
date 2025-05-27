@@ -13,13 +13,13 @@ const AboutUs = () => {
                     </h2>
                     <p data-animate="fadeRight" className="start-invisible text-lg text-gray-700 leading-relaxed">
                         We are a dedicated team of concrete specialists with over a decade
-                        of experience. Whether it's a backyard pool, a decorative patio, or
+                        of experience. Whether it&apos;s a backyard pool, a decorative patio, or
                         a commercial slab, we build with precision and pride. Our mission is
                         to bring your vision to life - with strength, beauty, and lasting
                         results.
                     </p>
                     <p data-animate="fadeRight" className="start-invisible mt-4 text-lg text-gray-700 leading-relaxed">
-                        Based in YOUR CITY, we've helped hundreds of homeowners and
+                        Based in YOUR CITY, we&apos;ve helped hundreds of homeowners and
                         contractors with dependable concrete work and thoughtful design.
                     </p>
                     <div data-animate="fadeIn" className="start-invisible flex justify-end">
