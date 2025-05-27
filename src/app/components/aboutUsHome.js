@@ -18,6 +18,7 @@ const AboutUs = () => {
                         to bring your vision to life - with strength, beauty, and lasting
                         results.
                     </p>
+
                     <p data-animate="fadeRight" className="start-invisible mt-4 text-lg text-gray-700 leading-relaxed">
                         Based in YOUR CITY, we&apos;ve helped hundreds of homeowners and
                         contractors with dependable concrete work and thoughtful design.
