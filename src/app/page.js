@@ -1,7 +1,7 @@
 import OurServices from "./components/ourservivces"
 import AboutUS from "./components/aboutUsHome"
 import Reviews from "./components/reviews"
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Home() {
 	return <div>

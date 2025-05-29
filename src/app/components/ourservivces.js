@@ -2,45 +2,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 
-const services = [
-	{
-		title: "Concrete Pools",
-		description:
-			"Expert construction of custom concrete pools, designed for durability and aesthetic appeal. From design to finish, we ensure a seamless process and a stunning result.",
-		imageUrl: "/images/hero.webp",
-	},
-	{
-		title: "Front Drives & Patios",
-		description:
-			"Beautifully crafted concrete driveways and patios that enhance your home's curb appeal and provide lasting functionality. Choose from various finishes and designs.",
-		imageUrl: "/images/hero.webp",
-	},
-	{
-		title: "Stamped Concrete",
-		description:
-			"Add elegance and unique patterns to your concrete surfaces with our stamped concrete services. Perfect for driveways, patios, and walkways, mimicking natural stone or brick.",
-		imageUrl: "/images/hero.webp",
-	},
-	{
-		title: "Concrete Repair & Resurfacing",
-		description:
-			"Restore the beauty and integrity of your existing concrete. Our repair and resurfacing solutions fix cracks, spalling, and discoloration, extending the life of your surfaces.",
-		imageUrl: "/images/hero.webp",
-	},
-	{
-		title: "Decorative Concrete",
-		description:
-			"Unleash your creativity with decorative concrete options, including stained, polished, and colored concrete. Ideal for unique indoor and outdoor spaces.",
-		imageUrl: "/images/hero.webp",
-	},
-	{
-		title: "Foundation Slabs",
-		description:
-			"Reliable and strong concrete foundation slabs for new constructions or extensions. We ensure precise leveling and high-quality concrete for a solid base.",
-		imageUrl: "/images/hero.webp",
-	},
-];
-
+import services from "@/app/util/services.json"
 const OurServices = () => {
 	const [itemsPerView, setItemsPerView] = useState(1);
 	const [currentIndex, setCurrentIndex] = useState(0);

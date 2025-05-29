@@ -44,7 +44,7 @@ export default function Header() {
                         <Link
                             key={label}
                             href={href}
-                            className={`font-bold ${pathname === href ? 'text-title' : 'text-passive'} hover:text-title transition-colors duration-300`}
+                            className={`font-bold ${pathname === href ? "text-title" : "text-passive"} hover:text-title transition-colors duration-300`}
                         >
                             {label.toUpperCase()}
                         </Link>
@@ -83,7 +83,7 @@ export default function Header() {
                             key={label}
                             href={href}
                             className={`font-bold ${
-                                pathname === href ? 'text-title' : 'text-passive'
+                                pathname === href ? "text-title" : "text-passive"
                             } hover:text-title transition-colors duration-300`}
                             onClick={() => setSidebarOpen(false)}
                         >

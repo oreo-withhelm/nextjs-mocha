@@ -1,7 +1,7 @@
 "use client"
-import React from 'react';
-import Link from 'next/link';
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+import React from "react";
+import Link from "next/link";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -26,7 +26,6 @@ const Footer = () => {
 
                 <div>
                     <h3 className="text-xl font-semibold mb-4">Get In Touch</h3>
-                    <p className="text-gray-400">123 Your Address<br />City, Post Code</p>
                     <p className="text-gray-400 mt-2">Email: <a href="mailto:info@yourcompany.com" className="hover:text-yellow-500">help@truesetcontracting.com</a></p>
                     <p className="text-gray-400">Phone: <a href="tel:+1234567890" className="hover:text-yellow-500">+44 Phone Number</a></p>
 

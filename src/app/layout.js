@@ -1,13 +1,13 @@
-import { Poppins } from 'next/font/google'
+import { Poppins } from "next/font/google"
 import "./globals.css";
 
 import Header from "./components/header"
 import Footer from "./components/footer"
 import AnimationObserverClient from "./components/utils"
 const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['400', '700'],
-	variable: '--font-poppins',
+	subsets: ["latin"],
+	weight: ["400", "700"],
+	variable: "--font-poppins",
 });
 
 export const metadata = {
