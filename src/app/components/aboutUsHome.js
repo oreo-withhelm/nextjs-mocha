@@ -12,16 +12,19 @@ const AboutUs = () => {
                         About Us
                     </h2>
                     <p data-animate="fadeRight" className="start-invisible text-lg text-gray-700 leading-relaxed">
-                        We are a dedicated team of concrete specialists with over a decade
-                        of experience. Whether it&apos;s a backyard pool, a decorative patio, or
-                        a commercial slab, we build with precision and pride. Our mission is
-                        to bring your vision to life - with strength, beauty, and lasting
-                        results.
+With over 30 years of experience, we take immense pride in the quality of our work. Specializing in customer satisfaction, we deliver everything from broom finish to stamped concrete with color — ensuring every project is both beautiful and durable.
+
+
                     </p>
 
                     <p data-animate="fadeRight" className="start-invisible mt-4 text-lg text-gray-700 leading-relaxed">
-                        Based in YOUR CITY, we&apos;ve helped hundreds of homeowners and
-                        contractors with dependable concrete work and thoughtful design.
+We are a dedicated team of concrete, fencing, and decking specialists committed to craftsmanship and excellence. Whether it’s a backyard walkway, a decorative patio, or a custom fence, we build with precision and pride. Our mission is to bring your vision to life — combining strength, style, and lasting results.
+
+                    </p>
+                                        <p data-animate="fadeRight" className="start-invisible mt-4 text-lg text-gray-700 leading-relaxed">
+Based in Hamilton, we’ve helped hundreds of homeowners and contractors transform their outdoor spaces with dependable service and thoughtful design.
+
+
                     </p>
                     <div data-animate="fadeIn" className="start-invisible flex justify-end">
                         <Link href="/contact" passHref>

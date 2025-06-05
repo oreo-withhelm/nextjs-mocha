@@ -10,8 +10,7 @@ const Footer = () => {
                 <div>
                     <h2 className="text-2xl font-bold mb-4">True Set General Contracting</h2>
                     <p className="text-gray-400">
-                        Delivering top quality concrete solutions for residential customers. From pool concrete to durable driveways - we build to last.
-                    </p>
+Delivering top-quality concrete solutions for residential customers. From pool decks to durable driveways, we build with strength and lasting beauty.                    </p>
                 </div>
 
                 <div>
@@ -26,13 +25,11 @@ const Footer = () => {
 
                 <div>
                     <h3 className="text-xl font-semibold mb-4">Get In Touch</h3>
-                    <p className="text-gray-400 mt-2">Email: <a href="mailto:info@yourcompany.com" className="hover:text-yellow-500">help@truesetcontracting.com</a></p>
-                    <p className="text-gray-400">Phone: <a href="tel:+1234567890" className="hover:text-yellow-500">+44 Phone Number</a></p>
+                    <p className="text-gray-400 mt-2">Email: <a href="mailto:truesetcontracting@gmail.com" className="hover:text-yellow-500">truesetcontracting@gmail.com</a></p>
+                    <p className="text-gray-400">Phone: <a href="tel:+1(647)781-0017" className="hover:text-yellow-500">+1 (647) 781-0017</a></p>
 
                     <div className="flex space-x-4 mt-4">
-                        <a href="#" aria-label="Facebook" className="hover:text-yellow-500"><FaFacebookF /></a>
-                        <a href="#" aria-label="Instagram" className="hover:text-yellow-500"><FaInstagram /></a>
-                        <a href="#" aria-label="Twitter" className="hover:text-yellow-500"><FaTwitter /></a>
+                        <a href="https://www.facebook.com/truesetgeneralcontracting/" aria-label="Facebook" className="hover:text-yellow-500"><FaFacebookF /></a>
                     </div>
                 </div>
             </div>

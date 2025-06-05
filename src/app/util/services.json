@@ -1,38 +1,26 @@
 [
-	{
-		"title": "Concrete Pools",
-		"description": "Expert construction of custom concrete pools, designed for durability and aesthetic appeal. From design to finish, we ensure a seamless process and a stunning result.",
-		"imageUrl": "/images/hero.webp",
-        "images": ["/images/hero.webp", "/images/hero.webp", "/images/hero.webp"]
-	},
-	{
-		"title": "Front Drives & Patios",
-		"description": "Beautifully crafted concrete driveways and patios that enhance your home's curb appeal and provide lasting functionality. Choose from various finishes and designs.",
-		"imageUrl": "/images/hero.webp",
-        "images": ["/images/hero.webp", "/images/hero.webp", "/images/hero.webp"]
-	},
-	{
-		"title": "Stamped Concrete",
-		"description": "Add elegance and unique patterns to your concrete surfaces with our stamped concrete services. Perfect for driveways, patios, and walkways, mimicking natural stone or brick.",
-		"imageUrl": "/images/hero.webp",
-        "images": ["/images/hero.webp", "/images/hero.webp", "/images/hero.webp"]
-	},
-	{
-		"title": "Concrete Repair & Resurfacing",
-		"description": "Restore the beauty and integrity of your existing concrete. Our repair and resurfacing solutions fix cracks, spalling, and discoloration, extending the life of your surfaces.",
-		"imageUrl": "/images/hero.webp",
-        "images": ["/images/hero.webp", "/images/hero.webp", "/images/hero.webp"]
-	},
-	{
-		"title": "Decorative Concrete",
-		"description": "Unleash your creativity with decorative concrete options, including stained, polished, and colored concrete. Ideal for unique indoor and outdoor spaces.",
-		"imageUrl": "/images/hero.webp",
-        "images": ["/images/hero.webp", "/images/hero.webp", "/images/hero.webp"]
-	},
-	{
-		"title": "Foundation Slabs",
-		"description": "Reliable and strong concrete foundation slabs for new constructions or extensions. We ensure precise leveling and high-quality concrete for a solid base.",
-		"imageUrl": "/images/hero.webp",
-        "images": ["/images/hero.webp", "/images/hero.webp", "/images/hero.webp"]
-	}
+  {
+    "title": "Stamped Concrete",
+    "description": "Expertly crafted concrete walkways that combine durability with elegant design to enhance your outdoor spaces.",
+    "imageUrl": "/images/portfolio/concrete_walkway.png",
+    "images": ["/images/portfolio/stamped-1.jpg", "/images/portfolio/stamped-2.jpg", "/images/portfolio/stamped-3.jpg"]
+  },
+  {
+    "title": "Patio",
+    "description": "Custom-designed patios that transform your backyard into a beautiful and functional outdoor living area.",
+    "imageUrl": "/images/portfolio/2.webp",
+    "images": ["/images/portfolio/patio.jpg", "/images/portfolio/2.webp", "/images/portfolio/patio-2.jpg"]
+  },
+  {
+    "title": "Concrete Driveways",
+    "description": "Durable color stamped driveways offering unique patterns and vibrant finishes to boost your home’s curb appeal.",
+    "imageUrl": "/images/portfolio/3.webp",
+    "images": ["/images/portfolio/concrete_driveways.png", "/images/portfolio/patio-3.jpg"]
+  },
+  {
+    "title": "Fencing & Decking",
+    "description": "Professional fencing & decking solutions designed to provide privacy, security, and aesthetic appeal to your property.",
+    "imageUrl": "/images/portfolio/fencing.jpg",
+    "images": ["/images/portfolio/decking.jpg", "/images/portfolio/fencing.jpg"]
+  }
 ]

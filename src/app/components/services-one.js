@@ -19,23 +19,24 @@ export default function ServicesOne() {
                         >
                             {data.description}
                         </p>
-                        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
-                            {data.images.map((image, imageIndex) => (
-                                <div
-                                    data-animate="fadeInUp"
-                                    key={imageIndex}
-                                    className="start-invisible bg-white p-1 md:p-3 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
-                                >
-                                    <Image
-                                        alt={data.title}
-                                        width={100}
-                                        height={100}
-                                        src={image}
-                                        className="object-contain w-full h-auto rounded"
-                                    />
-                                </div>
-                            ))}
+                        <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                        {data.images.map((image, imageIndex) => (
+                            <div
+                            data-animate="fadeInUp"
+                            key={imageIndex}
+                            className="relative w-full aspect-[1/1] start-invisible bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                            >
+                            <Image
+                                alt={data.title}
+                                fill
+                                src={image}
+                                className="rounded object-cover"
+                                quality={10}
+                            />
+                            </div>
+                        ))}
                         </div>
+
                     </div>
                 ))}
             </div>
