@@ -13,9 +13,8 @@ export default function Contact() {
                     <div className="space-y-6 text-left text-gray-700">
                         <h3 className="text-2xl font-semibold text-gray-900">Contact Information</h3>
                         <div className="space-y-2 text-lg">
-                            <p><span className="font-medium">Phone:</span> (123) 456-7890</p>
+                            <p><span className="font-medium">Phone:</span>+1 (647) 781-0017</p>
                             <p><span className="font-medium">Email:</span> truesetcontracting@gmail.com</p>
-                            <p><span className="font-medium">Address:</span> +1 (647) 781-0017</p>
                         </div>
                     </div>
 
